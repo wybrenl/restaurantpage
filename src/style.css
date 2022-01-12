@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-image: url('./background.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.headNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    height: 150px;
+    color: white;
+    font-size: 64px;
+    opacity: 0.7;
+}
+
+.headerText {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.logo {
+    max-height: 130px;
+    align-self: flex-start;
+}
+
+.nav {
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    height: 25px;
+}
+
+.button {
+    height: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    width: 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background: black;
+    color: white;
+    opacity: 0.8;
+}
+
